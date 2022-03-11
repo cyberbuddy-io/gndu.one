@@ -60,7 +60,7 @@ header {
 	width: calc(100% - 200px);
 	min-height: calc(100vh - 200px);
 	padding: 100px;
-	background-image: url("/assets/images/pg1.png");
+	background: url("../images/pg1.png");
 	background-size: cover;
 	background-position: bottom;
 }
@@ -173,7 +173,7 @@ section {
 	width: calc(100% - 200px);
 	min-height: calc(100vh - 200px);
 	padding: 100px;
-	background-image: url("/assets/images/pg2.png");
+	background-image: url('../images/pg2.png');
 	display: flex;
 	flex-wrap: wrap;
 	color: #000000;
@@ -262,7 +262,7 @@ section {
 }
 
 #pg2 {
-	background-image: url("/assets/images/pg3.png");
+	background-image: url('../images/pg3.png');
 	color: white;
 	width: calc(100% - 200px);
 	min-height: calc(100vh - 300px);
@@ -293,7 +293,7 @@ section {
 }
 
 #pg3 {
-	background-image: url("/assets/images/pg4.png");
+	background-image: url('../images/pg4.png');
 	color: white;
 	width: calc(100% - 300px);
 	min-height: calc(100vh - 200px);
@@ -340,7 +340,7 @@ section {
 		width: calc(100% - 40px);
 		min-height: calc(100vh - 100px);
 		padding: 50px 20px;
-		background-image: url("/assets/images/pg2.png");
+		background-image: url('../images/pg2.png');
 		display: flex;
 		flex-wrap: wrap;
 		gap: 100px;
