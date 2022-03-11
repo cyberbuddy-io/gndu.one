@@ -456,3 +456,29 @@ section {
 		width: 50px;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	header div h1 {
+		font-size: 40px;
+	}
+
+	header {
+		width: calc(100% - 40px);
+		min-height: calc(100vh - 200px);
+		padding: 100px 20px;
+	}
+
+	#pg1 div:nth-child(1) figure {
+		width: 200px;
+		height: 200px;
+	}
+
+	header div h2 {
+		font-size: 15px;
+	}
+
+	header div p {
+		font-size: 17px;
+		width: 90%;
+	}
+}
