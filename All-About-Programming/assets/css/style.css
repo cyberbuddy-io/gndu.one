@@ -962,6 +962,42 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Collaboration Cards
+--------------------------------------------------------------*/
+
+.collab-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 40px;
+}
+
+.collab-card {
+  width: 350px;
+  height: 200px;
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.collab-card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collab-card img {
+  width: 110%;
+  height: 110%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.collab-card img:hover {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
 .clients {
