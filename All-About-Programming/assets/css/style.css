@@ -991,6 +991,7 @@ section {
   height: 110%;
   opacity: 0.5;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .collab-card img:hover {
