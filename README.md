@@ -7,10 +7,11 @@
 - ✨ It is the One Domin For All GNDU Students. 
 - ✨ This Includes All the Department Of Main And Regional Campus.
 - ✨ This Domin is Open For All, Students of different Deparment can Host Their Website At GNDU.Club.
-<div align="center">
- 
- ![Gndu.club GitHub stats](https://github-readme-stats.vercel.app/api?username=gndu.club&theme=great-gatsby&hide_border=true&show_icons=true)
- </div>
+<table>
+  <tr>
+    <td align="center">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=gndu.club&amp;show_icons=true&amp;title_color=fff&amp;icon_color=79ff97&amp;text_color=9f9f9f&amp;bg_color=151515" alt="Gndu.Club Github Stats" style="max-width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
 
   ### Tools Which We Are Working upon : 🛠
 
