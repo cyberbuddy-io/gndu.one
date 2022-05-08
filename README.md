@@ -9,7 +9,7 @@
 - ✨ This Domin is Open For All, Students of different Deparment can Host Their Website At GNDU.Club.
 <div align="center">
  
- ![Gndu.club GitHub stats](https://github-readme-stats.vercel.app/api?username=cyberbuddy-io/gndu.club&theme=great-gatsby&hide_border=true&show_icons=true)
+ ![Gndu.club GitHub stats](https://github-readme-stats.vercel.app/api?username=gndu.club&theme=great-gatsby&hide_border=true&show_icons=true)
  </div>
 
   ### Tools Which We Are Working upon : 🛠
@@ -18,7 +18,7 @@
 <br><br><br>
 
 ### Profile Views : 
-  <img src="https://profile-counter.glitch.me/cyberbuddy-io/gndu.club/count.svg" />
+  <img src="https://profile-counter.glitch.me/gndu.club/count.svg" />
   <br>
 ### - <h2 align="center"> This Domian is Maintained By <a href="https://www.cyberbuddy.io">Cyberbuddy.io</a></h2>
 <br><hr>
