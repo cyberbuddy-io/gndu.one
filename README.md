@@ -10,8 +10,7 @@
 
   
 ### Profile Views : 
-  <img src="https://profile-counter.glitch.me/gndu.club/count.svg" />
-  
+  <img src="https://profile-counter.glitch.me/gndu.club/count.svg" /> 
 ### - <h2 align="center"> This Domian is Maintained By <a href="https://www.cyberbuddy.io">Cyberbuddy.io</a></h2>
 <br><hr>
 
