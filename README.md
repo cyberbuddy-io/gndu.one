@@ -1,4 +1,4 @@
-<h1 align="center"> One Domian For All Clubs👍🤞😎</h1>
+<h1 align="center" font="bold"> One Domian For All Clubs👍🤞😎</h1>
 
 ### - Our Aim To Develop More And More Communities In Our University.
 ### - More And More Students came to Know About Communitiy Development. :  <img width="420" src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/5/Desk/2020_5$largeimg_1593339688.jpeg" align="right">
@@ -8,9 +8,8 @@
 - ✨ This Includes All the Department Of Main And Regional Campus.
 - ✨ This Domin is Open For All, Students of different Deparment can Host Their Website At GNDU.Club.
 ### - Come and Join with Us
-
 ### Profile Views : 
-  <img src="https://profile-counter.glitch.me/gndu.club/count.svg" /> 
+  <img src="https://profile-counter.glitch.me/gndu.club/count.svg/"> 
 ### - <h2 align="center"> This Domian is Maintained By <a href="https://www.cyberbuddy.io">Cyberbuddy.io</a></h2>
 <hr> 
 
