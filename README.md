@@ -6,9 +6,11 @@ Our Aim is to bring all the Communities in our University on Internet. This way 
 - ✨ This Includes All the Department Of Main And Regional Campus.
 - ✨ This Domin is Open For All, Students of different Deparment can Host Their Website At GNDU.Club.
 ### - Come and Join with Us
+
 ### Profile Views : 
   <img src="https://profile-counter.glitch.me/gndu.club/count.svg/"> 
-### - <h2 align="center"> This Domain is Maintained By <a href="https://www.cyberbuddy.io">Cyberbuddy.io</a></h2>
+  
+### This Domain is Maintained By <a href="https://www.cyberbuddy.io">Cyberbuddy.io</a>
 <hr> 
 
 ## Also Checkout : [Cyberbuddy.io](https://www.cyberbuddy.io)
