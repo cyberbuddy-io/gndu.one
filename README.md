@@ -1,11 +1,10 @@
 <h1 align="center" font="bold"> One Domain For All Clubs</h1>
 Our Aim is to bring all the Communities in our University on Internet. This way it will be much easier for the students to explore and join these communities and boost their learning experience. We at GNDU like to make things interesting and so we are launching GNDU.CLUB <img width="420" src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/5/Desk/2020_5$largeimg_1593339688.jpeg" align="right">
 
-### - Why GNDU.club? 
+### - Why gndu.club? 
 - ✨ It is the One Domain For all the clubs at GNDU. 
 - ✨ This Includes All the Department Of Main And Regional Campus.
 - ✨ This Domin is Open For All, Students of different Deparment can Host Their Website At GNDU.Club.
-### - Come and Join with Us
 
 ### Profile Views : 
   <img src="https://profile-counter.glitch.me/gndu.club/count.svg/"> 
