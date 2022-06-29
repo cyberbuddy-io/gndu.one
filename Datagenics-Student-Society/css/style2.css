@@ -1,0 +1,809 @@
+$white: #ffffff;
+$black: #000000;
+$primary1: #0e3746;
+$primary2: #be2623;
+$bgColor:#f9fafa;
+
+@mixin main-font {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+@mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
+  display: inline-block;
+  padding: $pad1 $pad2;
+  background-color: $col1;
+  color: $col2;
+  border-radius: $bRadius;
+  border: 1px solid $col1;
+  transition: all .2s;
+
+  &:hover {
+    background-color: transparent;
+    color: $col1;
+  }
+}
+
+@mixin upperBold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* fonts import */
+@import url("../fonts/octin_sports_rg.ttf");
+
+body {
+  @include main-font;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.layout_padding {
+  padding: 30px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 25px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 90px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 90px;
+}
+
+.heading_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h2 {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &.heading_center {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+h1,
+h2 {}
+
+/*header section*/
+.hero_area {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sub_page {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .header_section {
+    // border-bottom: 3px solid $primary1;
+    box-shadow: 2px 2px 3px 0 rgba($color: #000000, $alpha: .15);
+  }
+}
+
+.header_section {
+  background-color: $white;
+
+  .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .nav_container {
+    margin: 0 auto;
+  }
+}
+
+.custom_nav-container {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        padding: 3px 15px;
+        margin: 10px 15px;
+        color: #272727;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      &.active,
+      &:hover {
+        .nav-link {}
+      }
+    }
+  }
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.custom_nav-container .nav_search-btn {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+.navbar-brand {
+  span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #272727;
+    text-transform: uppercase;
+  }
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 5px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler {
+  padding: 0;
+  width: 37px;
+  height: 42px;
+  transition: all 0.3s;
+
+  span {
+    display: block;
+    width: 32px;
+    height: 4px;
+    background-color: $black;
+    border-radius: 15px;
+    margin: 7px 0;
+    transition: all 0.3s;
+    position: relative;
+    transition: all 0.3s;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $black;
+      border-radius: 15px;
+      top: -10px;
+      transition: all 0.3s;
+    }
+
+    &::after {
+      top: 10px;
+    }
+  }
+
+  &[aria-expanded="true"] {
+    transform: rotate(360deg);
+
+    span {
+      transform: rotate(45deg);
+
+      &::before,
+      &::after {
+        transform: rotate(90deg);
+        top: 0;
+      }
+    }
+  }
+
+}
+
+.quote_btn-container {
+  display: flex;
+  align-items: center;
+
+  a {
+    color: #151515;
+    margin-right: 25px;
+    text-transform: uppercase;
+
+    span {
+      margin-right: 5px;
+    }
+  }
+}
+
+/*end header section*/
+
+/* slider section */
+.slider_section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .slider_bg_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bg_img_box {
+
+      img {
+        min-width: 100%;
+        min-height: 100%;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba($color: $primary1, $alpha: .5), rgba($color: $primary1, $alpha: .55));
+
+    }
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  #customCarousel {
+    width: 100%;
+    z-index: 3;
+  }
+
+  .detail-box {
+    text-align: center;
+    color: $white;
+
+    h1 {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 25px 0;
+    }
+
+    .btn-box {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 -5px;
+
+      a {
+        margin: 5px;
+        text-align: center;
+        width: 165px;
+      }
+
+      .btn1 {
+        @include hero_btn($primary2, $white, 10px, 15px, 0);
+      }
+
+      .btn2 {
+        @include hero_btn($white, $black, 10px, 15px, 0);
+      }
+    }
+  }
+
+  .img-box {
+    img {
+      width: 100%;
+    }
+  }
+
+  .carousel-indicators {
+    position: unset;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+
+    li {
+      background-color: $primary2;
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      opacity: 1;
+
+      &.active {
+        width: 17px;
+        height: 17px;
+        background-color: $white;
+      }
+    }
+  }
+}
+
+// end slider section
+
+
+
+// about section
+
+.about_section {
+  .row {
+    align-items: center;
+  }
+
+  .img-box {
+    img {
+      width: 100%;
+    }
+  }
+
+  .detail-box {
+    p {
+      margin-top: 10px;
+      margin-bottom: 35px;
+    }
+
+    a {
+      @include hero_btn($primary1, $white, 10px, 45px, 0);
+    }
+  }
+}
+
+// end about section
+
+// course section
+
+.course_section {
+  position: relative;
+  color: $white;
+
+  .course_bg_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bg_img_box {
+
+      img {
+        min-width: 100%;
+        min-height: 100%;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba($color: $primary1, $alpha: .65), rgba($color: $primary1, $alpha: .4));
+
+    }
+  }
+
+  .heading_container {
+    padding-left: 90px;
+  }
+
+  .course_container {
+    display: flex;
+    margin-top: 35px;
+    padding-left: 85px;
+    position: relative;
+
+    .box {
+      margin: 0 10px;
+      background-color: $white;
+      color: $black;
+
+      .img-box {
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+
+      }
+
+      .detail-box {
+        padding: 15px;
+
+        h4 {
+          font-weight: 600;
+        }
+
+        p {
+          font-size: 15px;
+        }
+
+        a {
+          @include hero_btn($primary2, $white, 7px, 30px, 0);
+        }
+      }
+
+    }
+  }
+
+  .owl-carousel {
+    position: unset;
+
+    .item {
+      width: 350px;
+    }
+
+    .owl-nav {
+      position: absolute;
+      top: 23%;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+
+      button.owl-next,
+      button.owl-prev {
+        width: 50px;
+        height: 50px;
+        margin: 3px 0;
+        border-radius: 100%;
+        outline: none;
+        background-color: $primary2;
+        color: $white;
+        font-size: 20px;
+
+        &:hover {
+          background-color: $white;
+          color: $black;
+        }
+
+        span {
+          display: none;
+        }
+      }
+
+    }
+
+    .owl-dots {
+      display: none;
+    }
+  }
+}
+
+// end course section
+
+// teacher section
+
+.teacher_section {
+  .box {
+    background-color: $primary1;
+    color: $white;
+    text-align: center;
+    margin-top: 45px;
+
+    .img-box {
+      img {
+        width: 100%;
+      }
+    }
+
+    .detail-box {
+      padding: 10px 15px;
+    }
+  }
+
+  .btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+
+    a {
+      @include hero_btn($primary2, $white, 10px, 45px, 0);
+    }
+  }
+}
+
+// end teacher section
+
+// client section
+
+.client_section {
+  .heading_container {
+    align-items: center;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    margin: 45px;
+    padding: 35px 25px;
+    box-shadow: 0 0 15px 0 rgba($color: #000000, $alpha: 0.15);
+
+    .img-box {
+      border-radius: 100%;
+      border: 10px solid $primary1;
+      margin-right: 25px;
+      min-width: 175px;
+      max-width: 175px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .detail-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .name {
+        text-align: center;
+
+        img {
+          width: 25px;
+          margin-bottom: 5px;
+        }
+
+        h6 {
+          color: $primary1;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .carousel_btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: unset;
+    width: 45px;
+    height: 45px;
+    border: none;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center;
+    background-color: $primary1;
+    background-position: center;
+    border-radius: 100%;
+    margin: 0 2.5px;
+
+    &:hover {
+      background-color: $black;
+    }
+  }
+
+  .carousel-control-next {
+    left: initial;
+  }
+}
+
+// end client section
+
+// contact section
+.contact_section {
+  position: relative;
+
+  .heading_container {
+    margin-bottom: 25px;
+
+    h2 {
+      text-transform: uppercase;
+    }
+  }
+
+
+  .form_container {
+
+    input {
+      width: 100%;
+      border: none;
+      height: 50px;
+      margin-bottom: 25px;
+      padding-left: 15px;
+      outline: none;
+      color: #101010;
+      box-shadow: 0 0 5px 0 rgba($color: #000000, $alpha: .15);
+
+      &::placeholder {
+        color: #333;
+      }
+
+      &.message-box {
+        height: 120px;
+      }
+    }
+
+    button {
+      border: none;
+      text-transform: uppercase;
+      @include hero_btn($primary1, $white, 12px, 55px, 0px);
+    }
+  }
+
+  .map_container {
+    height: 345px;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+
+    .map {
+      height: 100%;
+      flex: 1;
+
+      #googleMap {
+        height: 100%;
+      }
+    }
+  }
+}
+
+// end contact section
+
+
+
+// info section
+.info_section {
+  background-color: #091f27;
+  color: $white;
+  padding-top: 45px;
+  padding-bottom: 10px;
+
+  .row>div {
+    margin-bottom: 35px;
+  }
+
+  .contact_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    a {
+      flex: 1;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      color: $white;
+      margin-bottom: 10px;
+
+      i {
+        font-size: 22px;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        color: $primary2;
+      }
+    }
+  }
+
+  .info_top {
+    padding: 45px 0;
+  }
+
+
+  h4 {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 20px;
+    color: $white;
+    font-weight: 600;
+  }
+
+  .social_box {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 40px;
+      height: 40px;
+      border: 1px solid $white;
+      color: $white;
+      font-size: 18px;
+      margin-right: 10px;
+
+      &:hover {
+        color: $primary2;
+        border-color: $primary2;
+      }
+    }
+  }
+
+  .info_form {
+    input {
+      width: 100%;
+      border: none;
+      height: 45px;
+      margin-bottom: 15px;
+      padding-left: 25px;
+      background-color: #eaeaea;
+      outline: none;
+      color: #101010;
+    }
+
+    button {
+      @include hero_btn($primary2, $white, 10px, 45px, 0px);
+
+    }
+
+  }
+
+
+}
+
+// end info section
+
+/* footer section*/
+
+.footer_section {
+  position: relative;
+  text-align: center;
+
+  p {
+    color: $black;
+    padding: 25px 0;
+    margin: 0;
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+
+// end footer section
