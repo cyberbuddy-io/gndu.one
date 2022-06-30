@@ -3,7 +3,7 @@ Our Aim is to bring all the Communities in our University on Internet. This way 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<img width="450" src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/5/Desk/2020_5$largeimg_1593339688.jpeg" align="right">
+<img width="500" src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/5/Desk/2020_5$largeimg_1593339688.jpeg" align="right">
 
 ## Why gndu.club? 
 - It is the One Domain for all the clubs which makes it easy for the students to get around anything related to GNDU. 
