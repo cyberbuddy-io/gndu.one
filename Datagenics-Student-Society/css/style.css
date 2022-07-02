@@ -105,7 +105,7 @@ body {
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link:hover{
   opacity: 2;
-  color: red;
+  color: #2260A8;
   transition: 0.2s;
 }
 
@@ -560,7 +560,7 @@ a:focus {
 }
 
 .teacher_section .box {
-  background-color: #031E44;
+  background-color: #2260A8;
   color: #ffffff;
   text-align: center;
   margin-top: 45px;
@@ -742,7 +742,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 12px 55px;
-  background-color: #031E44;
+  background-color: #2260A8;
   color: #ffffff;
   border-radius: 0px;
   border: 1px solid #031E44;
@@ -944,5 +944,52 @@ a:focus {
 
 .collab-card img:hover {
   opacity: 1;
+}
+.team_section .box {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 45px;
+}
+.team_section h5{
+  color: #2260A8;
+  font-weight: bold;
+}
+.team_section h6{
+  color: #000000;
+}
+
+.team_section .box .img-box img {
+  width: 100%;
+  height: 38vh;
+}
+
+.team_section .box .detail-box {
+  padding: 10px 15px;
+}
+
+.team_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.team_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #031E44;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #031E44;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.team_section .btn-box a:hover {
+  background-color: transparent;
+  color: #be2623;
 }
 /*# sourceMappingURL=style.css.map 
