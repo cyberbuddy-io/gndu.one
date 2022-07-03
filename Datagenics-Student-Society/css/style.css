@@ -1,4 +1,4 @@
-/* fonts import */
+ fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
 html{
   scroll-behavior: smooth;
@@ -31,7 +31,7 @@ body {
 }
 
 .layout_padding-bottom {
-  padding-bottom: 90px;
+  padding-bottom: 0px;
 }
 
 .heading_container {
@@ -96,11 +96,17 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 3px 15px;
-  margin: 10px 15px;
-  color: #272727;
+  padding: 3px 7px;
+  margin: 3px 9px;
+  color: #000000;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+}
+.custom_nav-container .navbar-nav .nav-item .nav-link:hover{
+  opacity: 2;
+  color: #2260A8;
+  transition: 0.2s;
 }
 
 a,
@@ -254,7 +260,9 @@ a:focus {
 .slider_section .slider_bg_box .bg_img_box img {
   min-width: 100%;
   min-height: 100%;
-  
+}
+.bg_img_box img {
+  background-position: center;
 }
 
 .slider_section .slider_bg_box::before {
@@ -381,8 +389,10 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 75%;
-  height: 40vh;
+  width: 90%;
+  height: 42vh;
+  border-radius: 60px;
+  padding: 10px;
 }
 
 .about_section .detail-box p {
@@ -550,7 +560,7 @@ a:focus {
 }
 
 .teacher_section .box {
-  background-color: #031E44;
+  background-color: #2260A8;
   color: #ffffff;
   text-align: center;
   margin-top: 45px;
@@ -558,7 +568,7 @@ a:focus {
 
 .teacher_section .box .img-box img {
   width: 100%;
-  height: 40vh;
+  height: 38vh;
 }
 
 .teacher_section .box .detail-box {
@@ -590,7 +600,6 @@ a:focus {
   background-color: transparent;
   color: #be2623;
 }
-
 .client_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -733,7 +742,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 12px 55px;
-  background-color: #031E44;
+  background-color: #2260A8;
   color: #ffffff;
   border-radius: 0px;
   border: 1px solid #031E44;
@@ -896,11 +905,91 @@ a:focus {
 
 .footer_section p {
   color: #000000;
-  padding: 25px 0;
+  padding: 20px;
   margin: 0;
 }
 
 .footer_section p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */
+.collab-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 40px;
+  padding: 40px;
+}
+
+.collab-card {
+  width: 350px;
+  height: 200px;
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.collab-card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collab-card img {
+  width: 110%;
+  height: 110%;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.collab-card img:hover {
+  opacity: 1;
+}
+.team_section .box {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 45px;
+}
+.team_section h5{
+  color: #2260A8;
+  font-weight: bold;
+}
+.team_section h6{
+  color: #000000;
+}
+
+.team_section .box .img-box img {
+  width: 100%;
+  height: 38vh;
+}
+
+.team_section .box .detail-box {
+  padding: 10px 15px;
+}
+
+.team_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.team_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #031E44;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #031E44;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.team_section .btn-box a:hover {
+  background-color: transparent;
+  color: #be2623;
+}
+/*# sourceMappingURL=style.css.map 

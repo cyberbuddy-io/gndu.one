@@ -42,6 +42,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -384,6 +385,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  font-weight: bolder;
 }
 
 h6, .h6 {
