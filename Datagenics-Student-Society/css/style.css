@@ -992,4 +992,27 @@ a:focus {
   background-color: transparent;
   color: #be2623;
 }
+
+
+.founder_section .box {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.founder_section .box .img-box img {
+  width: 100%;
+  height: 35vh;
+  border-radius: 200px 200px;
+}
+
+.founder_section .box .detail-box {
+  padding: 5px 5px;
+}
+.founder_section h5{
+  color: #2260A8;
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=style.css.map 
