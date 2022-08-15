@@ -258,8 +258,8 @@ a:focus {
 }
 
 .slider_section .slider_bg_box .bg_img_box img {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100rem;
+  height: 40rem;
 }
 .bg_img_box img {
   background-position: center;
@@ -389,8 +389,8 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 90%;
-  height: 42vh;
+  width: 100%;
+  height: 40vh;
   border-radius: 60px;
   padding: 10px;
 }
@@ -779,10 +779,10 @@ a:focus {
 }
 
 .info_section {
-  background-color: #031E44;
+  background-color: #2260A8;
   color: #ffffff;
-  padding-top: 45px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 1px;
 }
 
 .info_section .row > div {
@@ -827,7 +827,7 @@ a:focus {
 }
 
 .info_section .info_top {
-  padding: 45px 0;
+  padding: 1px 0;
 }
 
 .info_section h4 {
@@ -917,7 +917,7 @@ a:focus {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px 40px;
-  padding: 40px;
+  padding: 5px;
 }
 
 .collab-card {
@@ -992,4 +992,27 @@ a:focus {
   background-color: transparent;
   color: #be2623;
 }
+
+
+.founder_section .box {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.founder_section .box .img-box img {
+  width: 100%;
+  height: 35vh;
+  border-radius: 200px 200px;
+}
+
+.founder_section .box .detail-box {
+  padding: 5px 5px;
+}
+.founder_section h5{
+  color: #2260A8;
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=style.css.map 
