@@ -8,6 +8,7 @@ Our Aim is to bring all the Communities in our University on Internet. This way 
 ## Why gndu.tech? 
 - It is the One Domain for all the clubs which makes it easy for the students to get around anything related to GNDU. 
 - This includes all the departments of the Main And Regional Campus which would make things interesting for students.
+- This will encourage and provides a platform to students to polish their skills.
 - This domain is open for all, students of different deparment can host their website At <a href="https://gndu.tech">gndu.tech</a> which provides opportunites to the students to learn and engage in teams to develop their ideas.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
