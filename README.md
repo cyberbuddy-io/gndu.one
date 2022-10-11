@@ -6,7 +6,7 @@ Our Aim is to bring all the communities in Guru Nanak Dev University onto the In
 <img width="350px" src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/5/Desk/2020_5$largeimg_1593339688.jpeg" align="right">
 
 ## Why gndu.tech? 
-- It is the One Domain for all the clubs which makes it easy for the students to get around anything related to GNDU. 
+- It is the One Domain for all the clubs which makes it easy for the students to get around anything related to Guru Nanak Dev University. 
 - This includes all the departments of the Main And Regional Campus which would make things interesting for students.
 - This domain is open for all, students of different deparment can host their website At <a href="https://gndu.tech">gndu.tech</a> which provides opportunites to the students to learn and engage in teams to develop their ideas.
 
