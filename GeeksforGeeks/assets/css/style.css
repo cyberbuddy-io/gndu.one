@@ -1608,5 +1608,6 @@ section {
   text-decoration: none;
 }
 .gimg{
-  margin-left: 170px;
+  /* margin-left: 170px; */
+  width: 100%;
 }
