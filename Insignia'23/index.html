@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insignia - Intercollege Event</title>
+    <link rel="shortcut icon" href="assets/images/Insignia final logosArtboard 1.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/design.css">
+       <link rel="stylesheet" href="assets/css/mediaq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+         a {
+            margin-inline: 14px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+            overflow-x: hidden;
+        }
+      header{
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+        
+      }
+
+        .navbar-brand img {
+            max-height: 100px;
+        }
+      /* for navbar */
+       .container {
+            max-width: 100%;
+            max-height: auto;
+            margin: 0 auto;
+             padding: 10px;
+        }
+
+        .event-description {
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            max-width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7); 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            min-height: fit-content;
+        }
+
+        .image-slider {
+            width: 90%;
+            height: auto; 
+            max-height: 80vh; 
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slider-content {
+            display: flex;
+            animation: slide 20s infinite;
+        }
+
+        .slider-content img {
+            width: 100vw;
+            height: 80vh;
+            object-fit: cover;
+        }
+       h2{
+        font-family: inherit
+       }
+
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            20% { transform: translateX(-100%); }
+            40% { transform: translateX(-200%); }
+            60% { transform: translateX(-300%); }
+            80% { transform: translateX(-400%); }
+            100% { transform: translateX(-500%); }
+        }
+        @media (min-width: 300px) and (max-width: 795px) {
+        
+            .event-description {
+                top: 50%; 
+                width: 50%; 
+                font-size: 18px;
+            }
+            .container {
+                width: 90%; 
+               
+            }
+         #left {
+           margin-left: -35%;
+        }
+    
+        #right {
+           margin-right:-35%;
+        }
+        }
+        @media  (min-width: 800px) and (max-width: 1280px){
+
+            #left {
+           margin-left: -20%;
+        }
+    
+        #right {
+           margin-right:-20%;
+        }
+        }
+        
+        .event-card {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+        }
+
+        .event-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card:hover {
+            transition: transform 0.2s ease;
+            transform: scale(1.05);    
+        }
+   
+    .trophy-img {
+            max-width: 50px;
+        }
+       
+        .trophy-decoration {
+            position: absolute;
+            top: 2%;
+            
+        }
+    
+        .left {
+            left: 30%;
+        }
+    
+        .right {
+            right: 30%;
+        }
+       
+  .events{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+#title-sponsors {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.sponsor-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.7s ease-in-out;
+}
+
+.sponsor-card:hover {
+    transform: scale(1.05);
+}
+
+
+.square-box:hover {
+    transform: scale(1.05);
+}
+.square-box {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.square-box .btn {
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #4e4eb6, #952fb5);
+    border-image-slice: 1;
+    flex-grow: 1;
+   
+}
+
+.square-box .btn:hover {
+    background-color: #4e4eb6;
+    color: #fff;
+}
+@media (min-width: 770px) and (max-width: 1195px) {
+        
+    .square-box {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        
+    <div class="hero-section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-icons">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                                  </svg>
+                                  <br>
+                                <span class="nav-item-text">Our Team</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-icons">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
+                                  </svg>
+                                    <br>
+                                  <span class="nav-item-text">Competitions </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-icons">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                                  </svg>
+                                  <br>
+                                  <span class="nav-item-text">TechFest Insights </span></a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand mx-auto" href="#">
+                        <img src="assets/images/final-logo.png" alt="Insignia Logo">
+                    </a>
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-icons">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75" />
+                                  </svg>
+                                  <br>
+                                  <span class="nav-item-text">Registrations</span></a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-icons">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 8.25H9m6 3H9m3 6l-3-3h1.5a3 3 0 100-6M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                  </svg>
+                                  
+                                  <br>
+                                  <span class="nav-item-text">Our Sponsors</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 svg-icons">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                  </svg>
+                                  <br>
+                                  <span class="nav-item-text">Contact Us </span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="bg-blur"></div> -->
+            </nav>
+            <div class="hero-graphics">
+<div class="hero-text">
+    <h1>INSIGNIA <span class="year">2023</span></h1>
+    <!-- <h1 class="year"></h1> -->
+    <p>The embodiment of your college experience. Technical, Cultural, Magical.</p>
+    <!-- HTML !-->
+<button class="button-64" role="button" onclick = "window.location.href='#exciting-events';"><span class="text">Register Now &#8595;	</span></button>
+</div>
+
+
+<div class="glass-img">
+<div class="glassmorph crc1"></div>
+<div class="glassmorph crc2"></div>
+
+        <div class="hero-image">
+            <img src="assets/images/hero-image.png" alt="3d-illustration of a man on a computer" class="floating">
+        </div>
+    </div>
+        </div>      
+        </div>
+    </header>
+
+    <div class="image-slider">
+        <div class="event-description">
+            
+            <p>
+                 <span class="Title-Times">INSIGNIA’ 2023 <br><br>
+                INSIGNIA is the ultimate Inter-Institute event for showcasing your skills and having fun. Our range of technical and cultural events along with expert photography, exciting prizes, and  electrifying beats of our DJ  guarantee an unforgettable experience.
+            </span>
+            </p>
+        </div>
+
+        <div class="slider-content">
+            <img src="assets/images/avishkar.jpg" alt="img-1">
+            <img src="assets/images/g.dance.jpg" alt="img-2">
+            <img src="assets/images/comedy.jpg" alt="img-3">
+            <img src="assets/images/electro-hunt.jpg" alt="img-4">
+            <img src="assets/images/code.jpg" alt="img-5">
+            <img src="assets/images/website.jpg" alt="img-6">
+            <img src="assets/images/computer-competiton.jpg" alt="img-7">
+            <img src="assets/images/fashion.jpg" alt="img-8">
+            <img src="assets/images/reels.jpg" alt="img-10">
+            <img src="assets/images/cinematography.jpg" alt="img-12">
+            <img src="assets/images/photography.jpg" alt="img-13">
+            <img src="assets/images/mobile-gaming.jpg" alt="img-9">
+            <img src="assets/images/dance.jpg" alt="img-14">
+            <img src="assets/images/ingniapic.jpg" alt="img-15">
+           
+           
+        </div>
+    </div>
+<br>
+<div id="title-sponsors" class="container mt-5">
+    <h1 class="text-center mb-4"> <span class="Title-Times">Sponsor</span></h1>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="sponsor-card">
+                <img src="assets/images/qm.png" alt="Title Sponsor" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container mt-4">
+    
+<section class="events" id="exciting-events">
+    <h1 class="text-center"><span class="Title-Times">Exciting Events!</span></h1>
+</section>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="assets/images/technical-event.jpg" class="card-img-top" alt="Technical Events">
+                <div class="card-body">
+                    <h2 class="card-title">Technical Events</h2>
+                    <p class="card-text">Prepare yourself for a series of thrilling technological challenges that will put your knowledge to the test. Experience an unforgettable event with us!</p>
+                    <div class="square-box">
+                        <a href="#registration-technical" class="btn btn-small">Explore</a>
+                        <a href="#registration-technical" class="btn btn-small">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="assets/images/cultural-event.jpg" class="card-img-top" alt="Cultural Events">
+                <div class="card-body">
+                    <h2 class="card-title">Cultural Events</h2>
+                    <p class="card-text">Experience the magic of art, music, and talent in our Cultural Events. It's a celebration of creativity, where traditions meet modernity.</p>
+                    <div class="square-box">
+                        <a href="#cultural-events" class="btn btn-small">Explore</a>
+                        <a href="#registration-cultural" class="btn btn-small">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="assets/images/fun-activity1.jpg" class="card-img-top" alt="Fun Activities">
+                <div class="card-body">
+                    <h2 class="card-title">Fun Activities</h2>
+                    <p class="card-text">Join the adventure in our Fun Activities, from treasure hunts to box cricket. It's all about having a blast and making memories!</p>
+                    <div class="square-box">
+                        <a href="#fun-activities" class="btn btn-small">Explore</a>
+                        <a href="#registration-fun" class="btn btn-small">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+    <div class="container mt-4" id="talent">
+        <header class="text-center mb-4 position-relative">
+           
+            <div class="trophy-decoration left" id="left">
+                <img src="assets/images/trophy.gif" alt="Trophy" class="img-fluid trophy-img">
+            </div>
+    
+            <h1 class="mt-0">Unleash Your Talent!</h1>
+            <h5>Do you have a hidden talent waiting to be discovered?</h5>
+    
+           
+            <div class="trophy-decoration right" id="right">
+                <img src="assets/images/trophy.gif" alt="Trophy" class="img-fluid trophy-img">
+            </div>
+        </header>
+    
+        <div class="row">
+           
+            <div class="col-md-8 offset-md-2 text-center">
+                <div class="talent">
+                    <ul class="text-left">
+                        <li>Join us at Insignia 2023 and let your skills shine! Whether you're an aspiring artist, a tech genius, or a passionate performer, we have the perfect platform for you to showcase your talents. Our events are designed to bring out the best in you and provide a stage where you can leave a mark.</li>
+                        <li>Don't miss this opportunity to unleash your creativity, connect with like-minded individuals, and be part of an unforgettable experience. Join us at Insignia and make your mark in the world of talent and innovation!</li>
+                    </ul>
+                    <a href="#registration-section" class="btn btn-primary mt-3 register-btn"> <span>Register Now!</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4" id="about-us">
+        <header class="text-center mb-4">
+            <h1>About Us</h1>
+            <h5>Discover who we are and our mission.</h5>
+        </header>
+    
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <div class="about-us-content">
+                    <div class="accordion" id="aboutUsAccordion">
+                        <div class="card">
+                            <div class="card-header" id="teamHeading">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#teamCollapse" aria-expanded="true" aria-controls="teamCollapse">
+                                         About Our Team
+                                    </button>
+                                </h2>
+                            </div>
+    
+                            <div id="teamCollapse" class="collapse show" aria-labelledby="teamHeading" data-parent="#aboutUsAccordion">
+                                <div class="card-body">
+                                    <img src="assets/images/fashion.jpg" alt="Our Team" class="img-fluid rounded-circle mb-3" width="350" height="350">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla tincidunt risus, ac blandit elit tempor vel. Nullam bibendum ex in mauris laoreet, sit amet pulvinar sapien sollicitudin.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                       
+                        <div class="card">
+                            <div class="card-header" id="missionHeading">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#missionCollapse" aria-expanded="false" aria-controls="missionCollapse">
+                                     Our Mission
+                                    </button>
+                                </h2>
+                            </div>
+    
+                            <div id="missionCollapse" class="collapse" aria-labelledby="missionHeading" data-parent="#aboutUsAccordion">
+                                <div class="card-body">
+                                    
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla tincidunt risus, ac blandit elit tempor vel. Nullam bibendum ex in mauris laoreet, sit amet pulvinar sapien sollicitudin.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer class="text-center p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 ">
+              <h2 class="text-center mb-5">Contact Us</h2>
+              <ul class="contact-us-list text-left">
+                <li><p>If you have any questions or inquiries, feel free to get in touch with us.</p></li>
+                <li><p>Email: <a href="mailto:insignia@gmail" class="footer-contact-mail" >Insignia@gmail.com</a></p></li>
+                <li><p>Phone: +91 ......</p></li>
+                <li><p>Address:  University Road, Ladhewali, Jalandhar, Punjab 144007</p></li>
+            </ul>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-5">Visit Us</h2>
+                <!-- <p class="text-left">Find us on the map:</p> -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.google.com/maps/place/Guru+Nanak+Dev+University,+Regional+Campus,+Jalandhar/@31.3335926,75.62112,17z/data=!3m1!4b1!4m6!3m5!1s0x391a598afff01ab1:0x4d676314655e801!8m2!3d31.333588!4d75.6236949!16s%2Fg%2F1vfwb6v8?entry=ttu" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+        </div>
+            <hr>
+            <p class="text-center footer-copy">&copy;insignia2023, made with 💙 by ... </p>
+      </footer>
+    
+    
+    
+    
+    
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

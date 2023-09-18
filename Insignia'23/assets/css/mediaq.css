@@ -1,0 +1,95 @@
+/* Media query breakpoints:
+300px
+795px
+
+
+
+*/
+@media (max-width: 1024px) {
+  html {
+    font-size: 85%;
+  }
+
+  .Title-Times {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+
+  .hero-graphics {
+    gap: 2rem;
+  }
+
+  .event-description .Title-Times {
+    font-size: 85%;
+  }
+
+  .trophy-img {
+    max-width: 90px !important;
+  }
+
+  h2.mb-5 {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-image img {
+    height: 25rem;
+    /* box-shadow: 10px 10px 20px rgba(30, 20, 73, 0.263); */
+  }
+
+  .crc1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .crc2 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .event-description {
+    width: 80% !important;
+  }
+
+  .hero-text {
+    text-align: center;
+    width: 60%;
+  }
+
+  .button-64 {
+    margin: auto;
+  }
+  .trophy-img {
+    max-width: 50px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .trophy-img {
+    max-width: 40px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 70%;
+  }
+
+  .event-description {
+    width: 100% !important;
+  }
+
+  .footer-copy {
+    margin-bottom: -20px;
+    font-size: 10px;
+  }
+  .trophy-img {
+    height: 25px;
+  }
+}
