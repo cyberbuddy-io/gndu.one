@@ -2168,7 +2168,7 @@ blockquote {
   z-index: 2;
   letter-spacing: 1px;
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 4px;
   font-family: Barlow Condensed, sans-serif;
   font-size: 70px;
   line-height: 80px;
@@ -2819,8 +2819,8 @@ blockquote {
   color: #bcbfc4;
 }
 .parrafos.margenizq {
-  margin-bottom: 40px;
-  padding-left: 20%;
+  margin-bottom: 20px;
+  padding-left: 0%;
 }
 .parrafos.parrafos-blanco {
   color: #fff;
