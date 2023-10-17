@@ -1,5 +1,5 @@
 <h1 align="center" font="bold"> One Domain For All</h1> 
-Our Aim is to bring all the communities in Guru Nanak Dev University onto the Internet. This way it will be much easier for students to explore and join these communities and boost their learning experience. We at Guru Nanak Dev University like to make things interesting and so we are launching <a href="https://gndu.tech">gndu.tech</a>
+Our Aim is to bring all the communities in Guru Nanak Dev University onto the Internet. This way it will be much easier for students to explore and join these communities and boost their learning experience. We at Guru Nanak Dev University like to make things interesting and so we are launching <a href="https://gndu.one">gndu.one</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
