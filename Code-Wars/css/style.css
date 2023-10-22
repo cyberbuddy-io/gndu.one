@@ -2278,7 +2278,7 @@ blockquote {
   display: flex;
 }
 .imagen-clientes {
-  max-height: 60px;
+  max-height: 130px;
 }
 .contacto {
   background-color: transparent;
